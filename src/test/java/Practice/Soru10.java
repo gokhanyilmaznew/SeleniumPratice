@@ -55,11 +55,13 @@ public class Soru10 {
 
         // teknosa adresine geri donunuz
         driver.navigate().to("https://teknosa.com/");
+
         // Sayfayı yenileyiniz
         driver.navigate().refresh();
 
         // medunna adresine ilerleyiniz
         driver.navigate().to("https://medunna.com/");
+
 
         // Sayfayı yenileyiniz
         driver.navigate().refresh();
